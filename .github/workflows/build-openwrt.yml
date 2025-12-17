@@ -18,7 +18,6 @@ on:
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
-  # REPO_URL: https://github.com/padavanonly/immortalwrt-mt798x-23.05
   # REPO_URL: https://github.com/padavanonly/immortalwrt-mt798x-6.6
   # REPO_BRANCH: openwrt-23.05
   REPO_BRANCH: master
