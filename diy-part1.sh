@@ -12,7 +12,6 @@
 
 # Uncomment a feed source
 sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
-git clone --depth=1 https://github.com/fw876/helloworld
 
 # Add a feed source
 sed -i '1i src-git passwall_packages https://github.com/Openwrt-Passwall/openwrt-passwall-packages.git;main' feeds.conf.default
